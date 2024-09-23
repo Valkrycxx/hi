@@ -15,70 +15,29 @@ body {
     padding-top: 20px;
 }
 
-.dropbtn {
-    background-color: #333;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 10px;
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.dropdown-content a {
+.menu a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     border-radius: 10px;
+    margin: 5px 10px;
+    transition: background-color 0.3s;
 }
 
-.dropdown-content a:hover {
-    background-color: #555;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
+.menu a:hover {
     background-color: #555;
 }
 
 .content {
     margin-left: 260px;
     padding: 20px;
-}
-
-.gallery, .about, .contact {
-    margin-bottom: 40px;
-}
-
-.video-item, .picture-item {
-    margin-bottom: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-video, img {
-    width: 100%;
-    border-radius: 10px;
 }
